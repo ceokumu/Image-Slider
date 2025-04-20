@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Google Font: Poppins -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <script defer src="js/main.js"></script>
+    <title>Image Slider | Interactive Image Comparison Tool</title>
+</head>
+<body>
+    <header>
+        <h1 id="title">Interactive Image Diff Tool</h1>
+        <h3 id="tagline">A custom-built slider interface to compare visuals with ease</h3>
+    </header>
+
+    <main>
+        <section class="slider-wrapper">
+            <div id="container">
+                <div id="container-content">
+                    <div id="images">
+                            <img alt="Before image comparison" src="img/before.jpg" loading="eager" class="before" id="before">
+                            <img alt="After image comparison" src="img/after.JPG" loading="eager" class="after">
+                    </div>
+                    <div id="slider-line"></div>
+                    <input type="range" min="0" max="100" value="50" id="slider" >
+                    
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Rushda. All Rights Reserved.</p>
+        <p>Project: Interactive Image Comparison Slider | Built with HTML, CSS & JavaScript</p>
+    </footer>
+</body>
+</html>
